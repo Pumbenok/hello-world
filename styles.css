@@ -1,17 +1,61 @@
-* {
-  margin:0px;
-  padding:0px;
+div {
+  font-size: 20px;
+  background:#D2B48C;
+  width: 800px;
+  margin :0 auto;
 }
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.me .logo 
+{
+  display:inline-block;
+  width:150px;
+  margin: 10px;
 }
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.me .logo img
+{
+  width:100%;
+}
+.me .phone {
+  display: inline-block;
+  float: right;
+  background:#FFD700;
+  margin: 10px 15px;
+  color: black;
+}
+.me .menu 
+{
+  border-top:5px solid white; 
+   padding:20px;
+  text-align: center;
+}
+.me .menu .button
+{
+  background:#000000;
+  color: white;
+  display: inline-block;
+  padding:15px 20px;
+   text-decoration: none;
+  font-family:Arial;
+}
+.me .menu .button1
+{
+  background:#FFFAF0;
+  color: SlateGray;
+  display: inline-block;
+  padding:15px 15px;
+   text-decoration: none;
+  font-family:Arial;
+  
+}
+.me .menu .button2
+{
+  background:#FFD700;
+  color: SaddleBrown;
+  display: inline-block;
+  padding:15px 7px;
+   text-decoration: none;
+  font-family:Arial;
+}
+.me .menu :hover
+{
+  background:#32CD32;
 }
